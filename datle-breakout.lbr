@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="6.5.0">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.25" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<packages>
+<package name="TQFP64-BR">
+<smd name="P$1" x="-1" y="0.5" dx="2.5" dy="0.25" layer="1"/>
+<smd name="P$2" x="-1" y="0" dx="2.5" dy="0.25" layer="1"/>
+<smd name="P$3" x="-1" y="-0.5" dx="2.5" dy="0.25" layer="1"/>
+<smd name="P$4" x="-1" y="-1" dx="2.5" dy="0.25" layer="1"/>
+<smd name="P$5" x="-1" y="-1.5" dx="2.5" dy="0.25" layer="1"/>
+<smd name="P$6" x="-1" y="-2" dx="2.5" dy="0.25" layer="1"/>
+<smd name="P$7" x="-1" y="-2.5" dx="2.5" dy="0.25" layer="1"/>
+<smd name="P$8" x="-1" y="-3" dx="2.5" dy="0.25" layer="1"/>
+<smd name="P$9" x="-1" y="-3.5" dx="2.5" dy="0.25" layer="1"/>
+<smd name="P$10" x="-1" y="-4" dx="2.5" dy="0.25" layer="1"/>
+<smd name="P$11" x="-1" y="-4.5" dx="2.5" dy="0.25" layer="1"/>
+<smd name="P$12" x="-1" y="-5" dx="2.5" dy="0.25" layer="1"/>
+<smd name="P$13" x="-1" y="-5.5" dx="2.5" dy="0.25" layer="1"/>
+<smd name="P$14" x="-1" y="-6" dx="2.5" dy="0.25" layer="1"/>
+<smd name="P$15" x="-1" y="-6.5" dx="2.5" dy="0.25" layer="1"/>
+<smd name="P$16" x="-1" y="-7" dx="2.5" dy="0.25" layer="1"/>
+<smd name="P$17" x="0.75" y="-6.5" dx="6" dy="0.25" layer="1" rot="R90"/>
+<smd name="P$18" x="1.25" y="-6.5" dx="6" dy="0.25" layer="1" rot="R90"/>
+<smd name="P$19" x="1.75" y="-6.5" dx="6" dy="0.25" layer="1" rot="R90"/>
+<smd name="P$20" x="2.25" y="-6.5" dx="6" dy="0.25" layer="1" rot="R90"/>
+<smd name="P$21" x="2.75" y="-6.5" dx="6" dy="0.25" layer="1" rot="R90"/>
+<smd name="P$22" x="3.25" y="-6.5" dx="6" dy="0.25" layer="1" rot="R90"/>
+<smd name="P$23" x="3.75" y="-6.5" dx="6" dy="0.25" layer="1" rot="R90"/>
+<smd name="P$24" x="4.25" y="-6.5" dx="6" dy="0.25" layer="1" rot="R90"/>
+<smd name="P$25" x="4.75" y="-6.75" dx="5.5" dy="0.3" layer="1" rot="R90"/>
+<smd name="P$26" x="5.25" y="-7" dx="5" dy="0.25" layer="1" rot="R90"/>
+<smd name="P$27" x="5.75" y="-7.25" dx="4.5" dy="0.25" layer="1" rot="R90"/>
+<smd name="P$28" x="6.25" y="-7.5" dx="4" dy="0.25" layer="1" rot="R90"/>
+<smd name="P$29" x="6.75" y="-7.75" dx="3.5" dy="0.25" layer="1" rot="R90"/>
+<smd name="P$30" x="7.25" y="-8" dx="3" dy="0.25" layer="1" rot="R90"/>
+<smd name="P$31" x="7.75" y="-8.25" dx="2.5" dy="0.25" layer="1" rot="R90"/>
+<smd name="P$32" x="8.25" y="-8.5" dx="2" dy="0.25" layer="1" rot="R90"/>
+<smd name="P$33" x="7.75" y="0.5" dx="6" dy="0.25" layer="1" rot="R180"/>
+<smd name="P$34" x="7.75" y="0" dx="6" dy="0.25" layer="1" rot="R180"/>
+<smd name="P$35" x="7.75" y="-0.5" dx="6" dy="0.25" layer="1" rot="R180"/>
+<smd name="P$36" x="7.75" y="-1" dx="6" dy="0.25" layer="1" rot="R180"/>
+<smd name="P$37" x="7.75" y="-1.5" dx="6" dy="0.25" layer="1" rot="R180"/>
+<smd name="P$38" x="7.75" y="-2" dx="6" dy="0.25" layer="1" rot="R180"/>
+<smd name="P$39" x="7.75" y="-2.5" dx="6" dy="0.25" layer="1" rot="R180"/>
+<smd name="P$40" x="7.75" y="-3" dx="6" dy="0.25" layer="1" rot="R180"/>
+<smd name="P$41" x="8" y="-3.5" dx="5.5" dy="0.25" layer="1" rot="R180"/>
+<smd name="P$42" x="8.25" y="-4" dx="5" dy="0.25" layer="1" rot="R180"/>
+<smd name="P$43" x="8.5" y="-4.5" dx="4.5" dy="0.25" layer="1" rot="R180"/>
+<smd name="P$44" x="8.75" y="-5" dx="4" dy="0.25" layer="1" rot="R180"/>
+<smd name="P$45" x="9" y="-5.5" dx="3.5" dy="0.25" layer="1" rot="R180"/>
+<smd name="P$46" x="9.25" y="-6" dx="3" dy="0.25" layer="1" rot="R180"/>
+<smd name="P$47" x="9.5" y="-6.5" dx="2.5" dy="0.25" layer="1" rot="R180"/>
+<smd name="P$48" x="9.75" y="-7" dx="2" dy="0.25" layer="1" rot="R180"/>
+<smd name="P$49" x="8.25" y="2.5" dx="2.5" dy="0.25" layer="1" rot="R270"/>
+<smd name="P$50" x="7.75" y="2.5" dx="2.5" dy="0.25" layer="1" rot="R270"/>
+<smd name="P$51" x="7.25" y="2.5" dx="2.5" dy="0.25" layer="1" rot="R270"/>
+<smd name="P$52" x="6.75" y="2.5" dx="2.5" dy="0.25" layer="1" rot="R270"/>
+<smd name="P$53" x="6.25" y="2.5" dx="2.5" dy="0.25" layer="1" rot="R270"/>
+<smd name="P$54" x="5.75" y="2.5" dx="2.5" dy="0.25" layer="1" rot="R270"/>
+<smd name="P$55" x="5.25" y="2.5" dx="2.5" dy="0.25" layer="1" rot="R270"/>
+<smd name="P$56" x="4.75" y="2.5" dx="2.5" dy="0.25" layer="1" rot="R270"/>
+<smd name="P$57" x="4.25" y="2.5" dx="2.5" dy="0.25" layer="1" rot="R270"/>
+<smd name="P$58" x="3.75" y="2.5" dx="2.5" dy="0.25" layer="1" rot="R270"/>
+<smd name="P$59" x="3.25" y="2.5" dx="2.5" dy="0.25" layer="1" rot="R270"/>
+<smd name="P$60" x="2.75" y="2.5" dx="2.5" dy="0.25" layer="1" rot="R270"/>
+<smd name="P$61" x="2.25" y="2.5" dx="2.5" dy="0.25" layer="1" rot="R270"/>
+<smd name="P$62" x="1.75" y="2.5" dx="2.5" dy="0.25" layer="1" rot="R270"/>
+<smd name="P$63" x="1.25" y="2.5" dx="2.5" dy="0.25" layer="1" rot="R270"/>
+<smd name="P$64" x="0.75" y="2.5" dx="2.5" dy="0.25" layer="1" rot="R270"/>
+<wire x1="-2.5" y1="4.25" x2="10.75" y2="4.25" width="0.127" layer="21"/>
+<wire x1="10.75" y1="4.25" x2="10.75" y2="-9.75" width="0.127" layer="21"/>
+<wire x1="10.75" y1="-9.75" x2="-2.5" y2="-9.75" width="0.127" layer="21"/>
+<wire x1="-2.5" y1="-9.75" x2="-2.5" y2="4.25" width="0.127" layer="21"/>
+</package>
+</packages>
+<symbols>
+</symbols>
+<devicesets>
+</devicesets>
+</library>
+</drawing>
+</eagle>
